@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2751"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textColor="#FBF9F9"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="#FFFDFD"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1B1A1A"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="phone"
+        android:textColor="#FBFAFA"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="404dp"
+        android:layout_height="66dp"
+        android:background="#756868"
+        android:text="edit"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="144dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="416dp">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="delete user" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Id"
+            android:textColor="#FBFAFA" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
